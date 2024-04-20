@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "norse-bold";
+    src:
+      local("Trickster"),
+      url("Norse-Bold.otf") format("opentype") 
+     
+  }
+  body {
+    display: flex;
+    
+ 
+    background-image: url(photo-1585202900225-6d3ac20a6962.avif);
+  }
+  .background-image {
+    width: 30%;
+    height: 100vh;
+    overflow: hidden;
+    flex: 1;
+    
+  }
+  .form-container {
+    width: 70%;
+    border: 1px solid black;
+    background-color: rgb(236, 241, 245);
+    height: 100vh;
+    flex: 1;
+    flex-grow: 2;
+  }
+  .img {
+    width: 40%;
+  }
+  .background-image {
+    /* Set the URL of the image */
+    background-image: url('photo-1585202900225-6d3ac20a6962.avif');
+
+    /* Specify how the background image should be positioned */
+    background-position: left;
+    
+    /* Specify the size of the background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* Set the width and height of the div */
+    /* Adjust as needed */
+}
+.background-image div {
+    display: flex;
+    background-color: black;
+    opacity: 0.7;
+    height: 20%;
+    font-family: "norse-bold","sans-serif";
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    top: 25%;
+  
+}
+.background-image p {
+  position: relative;
+  top: 77%;
+  color: white;
+  left: 30%;
+}
+img {
+    width: 30%;
+    height: 90%;
+}
+
+span {
+  color: white;
+  font-size: 6.2rem;
+}
+.form-container {
+  padding-left: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.form-container p{
+  color: black;
+  max-width: 56ch;
+  font-weight: 800;
+  font-size: 1.7rem;
+}
+.form-container p:nth-of-type(3){
+  margin-top: 25px;
+  margin-bottom: 90px;
+}
+form {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 3px 3px 3px #888;
+
+}
+.left-input,.right-input {
+
+ 
+  gap: 10px;
+  padding: 30px 30px;
+}
+.left-input {
+  display: flex;
+  flex-direction: column;
+  min-width: 50%;
+}
+.right-input {
+  display: flex;
+  min-width: 50%;
+  flex-direction: column;
+ 
+}
+ h1 {
+  min-width: 100%;
+  padding-left: 2rem;
+  padding-top: 2rem;
+  font-size: 2rem;
+}
+input {
+  border-width: 1px;
+  width: 60%;
+  height: 30px;
+}
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus {
+  border: 1px solid rgb(255, 0, 0);
+  box-shadow: 3px 3px 3px #888;
+}
+button {
+  background-color: #596D48;
+  color: white;
+  border-radius: 5px;
+  width: 12rem;
+  height: 3rem;
+  font-size: 1.2rem;
+  margin-top: 5%;
+}
+a {
+  color: #596D48;
+}
+body > div.form-container > div > p:nth-child(6) {
+  margin-top: 50px;
+}
